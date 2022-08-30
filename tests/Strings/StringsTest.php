@@ -93,3 +93,42 @@ class StringTest extends TestCase
         assertEquals(findDistance("saturday", "sunday"), 3);
     }
 }
+
+
+
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
+// New testing on files changes
