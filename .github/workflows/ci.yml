@@ -1,4 +1,4 @@
-name: PHP Composer
+name: PHP Composer, PHPUnit Test and Static Analysis Test
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
+    
     - name: Validate composer.json and composer.lock
       run: composer validate
 
@@ -32,3 +32,9 @@ jobs:
 
     - name: Run PHPUnit
       run: composer run-script test
+      
+    - name: PHPStan Static Analysis test
+      uses: php-actions/phpstan@master
+      with:
+        configuration: phpstan.neon
+        memory_limit: 256M

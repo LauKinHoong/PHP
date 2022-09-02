@@ -1,10 +1,9 @@
 parameters:
     level: 1
-    excludePaths:
-        - DataStructures
     paths:
         - Ciphers
         - Conversions
+        - DataStructures
         - Maths
         - Searches
         - Sorting
