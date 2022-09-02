@@ -14,6 +14,7 @@ require_once __DIR__ . '/../../Maths/FastExponentiation.php';
 require_once __DIR__ . '/../../Maths/Fibonacci.php';
 require_once __DIR__ . '/../../Maths/Fibonacci2.php';
 require_once __DIR__ . '/../../Maths/PerfectSquare.php';
+require_once __DIR__ . '/../../Maths/EuclideanDistance.php';
 
 class MathTest extends TestCase
 {
@@ -85,5 +86,12 @@ class MathTest extends TestCase
 
         assertEquals([0, 1, 1, 2, 3], iterator_to_array(loop(5, fib())));
         assertEquals([0, 1, 1, 2, 3, 5, 8, 13, 21, 34], iterator_to_array(loop(10, fib())));
+    }
+    
+    public function testEuclideanDistance()
+    {
+        assertEquals(euclideanDistance(1, 1, 3, 3), 2.8284271247462);
+        assertEquals(euclideanDistance(5, 10, 8, 4), 6.7082039324994);
+        assertEquals(euclideanDistance(9, -1, -6, 5), 16.155494421404);
     }
 }
