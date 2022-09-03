@@ -2,7 +2,7 @@
 
 /**
  * This function converts the
- * submitted Octal Number to
+ * submitted Hexadecimal Number to
  * Decimal Number.
  *
  * Working of Algorithm
@@ -12,7 +12,7 @@
  * (160 + 11) base 10
  * 171 base 10
  *
- * @param string $octalNumber
+ * @param string $hexNumber
  * @return int
  */
 function hexToDecimal($hexNumber)
